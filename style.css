@@ -37,15 +37,17 @@ h1{
     color: rgb(255, 255, 255);
 }
 .card{
+    margin-top: 15%;
     height: 80vh;
     background-color: rgba(105, 105, 105, 0.089);
 }
 .textarea{
     /* background: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.7)),url('https://i1.sndcdn.com/avatars-000431870247-qgf6z1-t500x500.jpg'); */
+    
     background-color: #000;
-    padding: 5%;
-    height: 70vh;
-    text-align: justify;
+    padding: 2%;
+    height: 80vh;
+    text-align: left;
     width: 100%;
     /* overflow: scroll;
     overflow-x: hidden; */
@@ -76,7 +78,7 @@ h1{
 }
 .text .btn1, .btn2{
     color: #000;
-    background-color: #fca311;
+    background-color: #2ec4b6;
     animation: button 1.5s;
     transform: translateX(-20px);
     display: block;
@@ -89,7 +91,7 @@ h1{
     padding: 5px;
 }
 .text .btn2{
-    background-color: #fca311;
+    animation: button2 1.5s;
 }
 @keyframes button {
     from {transform: translateX(-210px);}
