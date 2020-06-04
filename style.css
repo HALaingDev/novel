@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url('https://image.freepik.com/free-photo/light-from-open-door_53876-74776.jpg'); */
+    background-color: #071E22;
+    background-size: 70% 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgb(0, 0, 0);
+    font-family: lato;
+    text-transform: uppercase;
+    color: rgb(184, 184, 184);
+}
+nav{
+    background-color: teal;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.container{
+    max-width: 70vw;
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
+h1{
+    max-width: 70vw;
+    margin-bottom: 5%;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 7px;
+    color: rgb(255, 255, 255);
+}
+.card{
+    max-width: 70vw;
+    margin-top: 15%;
+}
+.textarea{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.7)),url('https://i1.sndcdn.com/avatars-000431870247-qgf6z1-t500x500.jpg'); */
+    
+    background-color: #000;
+    padding: 2%;
+    text-align: left;
+    width: 100%;
+    /* overflow: scroll;
+    overflow-x: hidden; */
+    scroll-behavior: smooth;
+    scrollbar-width: 500px;
+}
+.btn-gp{
+    /* background-color: dodgerblue; */
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.37);
+    border: none;
+    color: white;
+}
+.hide {
+    display: none;
+}
+.show{
+    display: block;
+}
+.text .btn1, .btn2{
+    color: #000;
+    background-color: #2ec4b6;
+    animation: button 1.5s;
+    transform: translateX(-20px);
+    display: block;
+    margin-left: 10%;
+    float: left;
+    width: 40%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.text .btn2{
+    animation: button2 1.5s;
+}
+@keyframes button {
+    from {transform: translateX(-210px);}
+    to{transform: translateX(-20px);}
+}
+@keyframes button2 {
+    from {transform: translateX(200%);}
+    to{transform: translateX(-20px);}
+}
+@media only screen and (min-width:500px){
+    .train{display: inline-block; transform: translateX(100px);}
+}
