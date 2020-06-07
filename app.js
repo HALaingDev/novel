@@ -5,6 +5,7 @@ let text = document.querySelector('#text1');
 document.getElementById('introClose').onclick = function () {
     document.querySelector('.intro').classList.add('remove');
     document.querySelector('.card').style.opacity = '100%';
+    document.querySelector('h1').style.opacity = '100%';
 }
 function first() {
     console.log(i)
@@ -20,6 +21,7 @@ function begin() {
     <button class='btn1' id = 'school' onclick='car.result();'>ကားနဲ့သွားမယ်<br>(၁၂နာရီကြာမယ်)</button>
     <button class='btn2' id='home' onclick='home.result();'>ရထားနဲ့သွားမယ်<br>(၁ရက်ခွဲကြာမယ်)</button>`;
     document.querySelector('.card').style.opacity = '30%';
+    document.querySelector('h1').style.opacity = '30%';
 }
 let car = {
     result: function () {
